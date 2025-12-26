@@ -13,7 +13,7 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         //Golbal Middleware
-        $middleware->append(CheckaccessTime::class);
+        // $middleware->append(CheckaccessTime::class);
 
         //middleware Alias
         // $middleware->alias([

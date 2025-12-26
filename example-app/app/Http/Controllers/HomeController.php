@@ -12,4 +12,7 @@ class HomeController extends Controller
         $now = Carbon::now()->format('Y-m-d H:i:s');
         return view('home', ['now' => $now]);
     }
+    public function about(){
+        return 'About Page';
+    }
 }
